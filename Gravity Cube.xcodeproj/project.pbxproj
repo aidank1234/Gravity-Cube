@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		632D5BA11B51CACE00BC9508 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632D5BA01B51CACD00BC9508 /* iAd.framework */; };
+		632D5BA31B51CAD400BC9508 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632D5BA21B51CAD400BC9508 /* StoreKit.framework */; };
+		632D5BA71B52D0EF00BC9508 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632D5BA61B52D0EF00BC9508 /* SystemConfiguration.framework */; };
+		632D5BA91B52D0F500BC9508 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632D5BA81B52D0F500BC9508 /* MediaPlayer.framework */; };
+		632D5BAB1B52D0FB00BC9508 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632D5BAA1B52D0FB00BC9508 /* AdSupport.framework */; };
 		636B70121B4C7D1700D9B2C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B70111B4C7D1700D9B2C0 /* AppDelegate.swift */; };
 		636B70141B4C7D1700D9B2C0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 636B70131B4C7D1700D9B2C0 /* GameScene.sks */; };
 		636B70161B4C7D1700D9B2C0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B70151B4C7D1700D9B2C0 /* GameScene.swift */; };
@@ -15,6 +20,10 @@
 		636B701D1B4C7D1800D9B2C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636B701C1B4C7D1800D9B2C0 /* Images.xcassets */; };
 		636B70201B4C7D1800D9B2C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 636B701E1B4C7D1800D9B2C0 /* LaunchScreen.xib */; };
 		636B702C1B4C7D1800D9B2C0 /* Gravity_CubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B702B1B4C7D1800D9B2C0 /* Gravity_CubeTests.swift */; };
+		639AF8521B52D9000012DDC6 /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639AF8511B52D9000012DDC6 /* RevMobAds.framework */; };
+		639AF8541B52D9380012DDC6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639AF8531B52D9380012DDC6 /* AVFoundation.framework */; };
+		639AF8561B52D97A0012DDC6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639AF8551B52D97A0012DDC6 /* CoreLocation.framework */; };
+		639AF8581B53505C0012DDC6 /* exo-2 in Resources */ = {isa = PBXBuildFile; fileRef = 639AF8571B53505C0012DDC6 /* exo-2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		632D5BA01B51CACD00BC9508 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		632D5BA21B51CAD400BC9508 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		632D5BA61B52D0EF00BC9508 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		632D5BA81B52D0F500BC9508 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		632D5BAA1B52D0FB00BC9508 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		632D5BAD1B52D13800BC9508 /* Gravity Cube-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gravity Cube-Bridging-Header.h"; sourceTree = "<group>"; };
 		636B700C1B4C7D1700D9B2C0 /* Gravity Cube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gravity Cube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		636B70101B4C7D1700D9B2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		636B70111B4C7D1700D9B2C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +55,10 @@
 		636B70251B4C7D1800D9B2C0 /* Gravity CubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gravity CubeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		636B702A1B4C7D1800D9B2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		636B702B1B4C7D1800D9B2C0 /* Gravity_CubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gravity_CubeTests.swift; sourceTree = "<group>"; };
+		639AF8511B52D9000012DDC6 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevMobAds.framework; path = "Gravity Cube/RevMobAds.framework"; sourceTree = "<group>"; };
+		639AF8531B52D9380012DDC6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		639AF8551B52D97A0012DDC6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		639AF8571B53505C0012DDC6 /* exo-2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "exo-2"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639AF8561B52D97A0012DDC6 /* CoreLocation.framework in Frameworks */,
+				639AF8541B52D9380012DDC6 /* AVFoundation.framework in Frameworks */,
+				632D5BAB1B52D0FB00BC9508 /* AdSupport.framework in Frameworks */,
+				632D5BA91B52D0F500BC9508 /* MediaPlayer.framework in Frameworks */,
+				639AF8521B52D9000012DDC6 /* RevMobAds.framework in Frameworks */,
+				632D5BA71B52D0EF00BC9508 /* SystemConfiguration.framework in Frameworks */,
+				632D5BA31B51CAD400BC9508 /* StoreKit.framework in Frameworks */,
+				632D5BA11B51CACE00BC9508 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +87,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		632D5BAC1B52D10600BC9508 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				639AF8551B52D97A0012DDC6 /* CoreLocation.framework */,
+				639AF8531B52D9380012DDC6 /* AVFoundation.framework */,
+				639AF8511B52D9000012DDC6 /* RevMobAds.framework */,
+				632D5BAA1B52D0FB00BC9508 /* AdSupport.framework */,
+				632D5BA81B52D0F500BC9508 /* MediaPlayer.framework */,
+				632D5BA61B52D0EF00BC9508 /* SystemConfiguration.framework */,
+				632D5BA21B51CAD400BC9508 /* StoreKit.framework */,
+				632D5BA01B51CACD00BC9508 /* iAd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		636B70031B4C7D1700D9B2C0 = {
 			isa = PBXGroup;
 			children = (
+				632D5BAC1B52D10600BC9508 /* Frameworks */,
 				636B700E1B4C7D1700D9B2C0 /* Gravity Cube */,
 				636B70281B4C7D1800D9B2C0 /* Gravity CubeTests */,
 				636B700D1B4C7D1700D9B2C0 /* Products */,
@@ -84,6 +127,7 @@
 				636B70111B4C7D1700D9B2C0 /* AppDelegate.swift */,
 				636B70131B4C7D1700D9B2C0 /* GameScene.sks */,
 				636B70151B4C7D1700D9B2C0 /* GameScene.swift */,
+				632D5BAD1B52D13800BC9508 /* Gravity Cube-Bridging-Header.h */,
 				636B70171B4C7D1800D9B2C0 /* GameViewController.swift */,
 				636B70191B4C7D1800D9B2C0 /* Main.storyboard */,
 				636B701C1B4C7D1800D9B2C0 /* Images.xcassets */,
@@ -96,6 +140,7 @@
 		636B700F1B4C7D1700D9B2C0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				639AF8571B53505C0012DDC6 /* exo-2 */,
 				636B70101B4C7D1700D9B2C0 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -198,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639AF8581B53505C0012DDC6 /* exo-2 in Resources */,
 				636B70201B4C7D1800D9B2C0 /* LaunchScreen.xib in Resources */,
 				636B701D1B4C7D1800D9B2C0 /* Images.xcassets in Resources */,
 				636B70141B4C7D1700D9B2C0 /* GameScene.sks in Resources */,
@@ -350,9 +396,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Gravity",
+					Cube,
+				);
 				INFOPLIST_FILE = "Gravity Cube/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gravity Cube/Gravity Cube-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -360,9 +416,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Gravity",
+					Cube,
+				);
 				INFOPLIST_FILE = "Gravity Cube/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gravity Cube/Gravity Cube-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -419,6 +484,7 @@
 				636B70311B4C7D1800D9B2C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		636B70321B4C7D1800D9B2C0 /* Build configuration list for PBXNativeTarget "Gravity CubeTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +493,7 @@
 				636B70341B4C7D1800D9B2C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
